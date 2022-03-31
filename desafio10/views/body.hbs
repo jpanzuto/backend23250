@@ -1,0 +1,50 @@
+    <div class="container">
+        <!-- Alta de nuevo producto --> 
+        <br>
+        <hr>
+        <h2>Alta de Producto</h2>
+        <hr>        
+        <form> 
+            <div class="row">
+                <div class="col-25"><label>Nombre:</label></div>
+                <div class="col-75"><input type="text" name="nombre" value="Juan" id="nombre" required></div>
+            </div>
+            <div class="row">
+                <div class="col-25"><label>Precio : </label></div>
+                <div class="col-75"><input type="text" name="precio" value="1234" id="precio" required></div>
+            </div>
+            <div class="row">
+                <div class="col-25"><label>Foto URL : </label></div>
+                <div class="col-75"><input type="text" name="fotoUrl" value="https://via.placeholder.com/350x150"  id="fotoUrl" required></div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Enviar" id="altaProducto">     
+            </div>        
+        </form>
+    
+        <!-- listado de productos --> 
+        <br>
+        <hr>
+        <h2>Listado de Productos</h2>
+        <hr>
+        <div id="listadoProductos"></div>
+
+        <!-- CHAT --> 
+        <br>
+        <hr>
+        <h2>Centro de Mensajes</h2>
+        <hr>
+        <form>
+            <div class="row"></div>
+                <div class="col-100"><input type="text" name="email" placeholder="usuario@correo.com"></div>
+            <div class="row">
+                <br>
+                <div class="col-100" id="listadoMensajes"></div>
+            </div>
+            <div class="row">
+                <div class="col-75"><input type="text" name="mensaje" placeholder="escriba un mensaje"></div>
+                <div class="col-25"><input type="submit" value="Enviar" id="nuevoMensajeCHAT"></div>
+            </div>
+        </form>
+        
+    </div>
