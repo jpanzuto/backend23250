@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"
+    integrity="sha512-RNLkV3d+aLtfcpEyFG8jRbnWHxUqVZozacROI4J2F1sTaDqo1dPQYs01OMi1t1w9Y2FdbSCDSQ2ZVdAC8bzgAg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/normalizr@3.6.1/dist/normalizr.browser.min.js"></script>
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>TITULO</title>
+</head>
+
+<body>
+  <main>
+    <hr>
+    <h2> <strong>Listado de Productos</strong>
+      <button class="btn btn-secondary" id="filtrosMostrarListadoProd">Mostrar</button>
+      <button class="btn btn-secondary" id="filtrosOcultarListadoProd">Ocultar</button>
+    </h2>
+    <div id="contenedorListadoProd">
+      <div id="listado_productos"></div>
+    </div>
+
+
+    <hr>
+    <h2> <strong>Nuevo Producto</strong>
+      <button class="btn btn-secondary" id="filtrosMostrarFormAltaProd">Mostrar</button>
+      <button class="btn btn-secondary" id="filtrosOcultarFormAltaProd">Ocultar</button>
+    </h2>
+    <div id="contenedorFormAltaProd">
+      <form id="formAltaProducto">
+        <div class="row">
+          <div class="col-25"><label>Código :</label></div>
+          <div class="col-75">
+            <input type="text" name="codigoProducto" placeholder="Ingresar código" required />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25"><label>Nombre:</label></div>
+          <div class="col-75">
+            <input type="text" name="nombreProducto" placeholder="Ingresar nombre" required />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25"><label>Decripción :</label></div>
+          <div class="col-75">
+            <input type="text" name="descripcionProducto" value="Descripcion del prod" placeholder="Ingresar descripcion" required />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25"><label>Precio :</label></div>
+          <div class="col-75">
+            <input type="number" name="precioProducto" value="50" placeholder="Ingresar precio" required />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25"><label>Url de la imagen :</label></div>
+          <div class="col-75">
+            <input type="text" name="imagenProducto"  value="www.imagen.com" placeholder="Ingresar URL" required />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25"><label>Stock :</label></div>
+          <div class="col-75">
+            <input type="number" name="stockProducto"  value="10" placeholder="Ingresar stock" required />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-100">
+            <input type="submit" value="Agregar producto" />
+          </div>
+        </div>
+      </form>
+    </div>
+
+
+  <hr>
+  <h2> <strong>Centro de Mensajes</strong>
+    <button class="btn btn-secondary" id="filtrosMostrarMensajes">Mostrar</button>
+    <button class="btn btn-secondary" id="filtrosOcultarMensajes">Ocultar</button>
+  </h2>
+  <div id="contenedorMensajes">
+    <div class="col-100">Compresion</div>
+    <form>
+      <div class="row"></div>
+      <div class="col-100"><input type="text" name="email" value="usuario@correo.com" placeholder="usuario@correo.com"></div>
+      <div class="col-100"><input type="text" name="nombre" value="Pepito" placeholder="Nombre"></div>
+      <div class="col-100"><input type="text" name="apellido" value="Gonzalez" placeholder="Apellido"></div>
+      <div class="col-100"><input type="text" name="edad" value="30" placeholder="Edad"></div>
+      <div class="col-100"><input type="text" name="alias" value="Pancho" placeholder="Apodo o Alias"></div>
+      <div class="col-100"><input type="text" name="avatar" value="avatar" placeholder="Link de tu imagen"></div>
+      <div class="row">
+      <br>
+      <div class="col-100" id="listadoMensajes"></div>
+      </div>
+      <div class="row">
+        <div class="col-75"><input type="text" name="mensaje" placeholder="escriba un mensaje"></div>
+        <div class="col-25"><input type="submit" value="Enviar" id="nuevoMensajeCHAT"></div>
+      </div>
+    </form>
+  </div>
+
+</main>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+  <script src="js/funciones.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
