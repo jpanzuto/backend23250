@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+  }
+
+main{
+  margin: 10px 20px;
+}
+
+.contenedorFormAltaProd{
+    border-radius: 5px;
+    background-color: #bbc0bc;
+    padding: 10px;
+    width: 50%;
+  }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.col-25 {
+float: left;
+width: 25%;
+margin-top: 3px;
+text-align: right;
+}
+
+.col-75 {
+float: left;
+width: 75%;
+margin-top: 3px;
+}
+
+.col-100 {
+    width: 100%;
+    margin-top: 3px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=text],input[type=url],input[type=number] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: white;
+    color: #45a049;
+  }
+  .chatEmail{
+text-decoration:solid;
+color: blue;
+  }
+  .chatFecha{
+    color: green;
+  }
+
+  .login {
+    background: #56ab2f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  .signup {
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  

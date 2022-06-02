@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pagina de Perfil</title>
+    <% include partials/head %>
+  </head>
+  <body>
+    <div class="container">
+      <header class="text-center">
+        <h1>Pagina de Perfil</h1>
+        <p><a href="/" class="btn btn-light btn-sm">home</a></p>
+      </header>
+      <hr>
+      <div class="container">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title"><span class="fa fa-user"></span> Local</h3>
+              <p>
+                <strong>id</strong> : <%= user._id %> <br>
+                <strong>nombre</strong> : <%= user.local.nombre %> <br>
+                <strong>password</strong> : <%= user.local.password %>
+              </p>
+              <a href="/logout" class="btn btn-light btn-sm">
+                Logout
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
