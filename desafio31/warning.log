@@ -1,0 +1,41 @@
+[2022-06-30T09:43:55.561] [WARN] default - Modo 'development'
+[2022-06-30T09:44:33.969] [WARN] default - Modo 'development'
+[2022-06-30T09:45:01.424] [WARN] default - Modo logger log4js: 'development'
+[2022-06-30T09:45:42.137] [WARN] default - La ruta '/asdadd' método 'GET' no existe
+[2022-06-30T09:45:42.257] [WARN] default - La ruta '/favicon.ico' método 'GET' no existe
+[2022-06-30T09:46:35.297] [WARN] default - La ruta '/asdadd' método 'GET' no existe
+[2022-06-30T09:46:35.348] [WARN] default - La ruta '/favicon.ico' método 'GET' no existe
+[2022-06-30T10:05:36.466] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:36.486] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:37.849] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:37.852] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:37.887] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:37.889] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:37.908] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:37.910] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:37.911] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:37.913] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:37.927] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:37.929] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:37.930] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:37.931] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:37.961] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:37.962] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:37.980] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:37.981] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:37.996] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:37.997] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:38.013] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:38.014] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:38.033] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:38.034] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:38.047] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:38.047] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:38.065] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:38.066] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:38.078] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:38.079] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:38.091] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:38.091] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:38.114] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-06-30T10:05:38.114] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
