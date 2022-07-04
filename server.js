@@ -13,9 +13,9 @@ const morgan = require("morgan");
 const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
 const session = require("express-session");
-const { url } = require("./config/database.js");
+const { urlMongo } = require("./config/config.js");
 
-mongoose.connect(url, {
+mongoose.connect(urlMongo, {
   useMongoClient: true,
 });
 console.log("BD Usuarios conectada");
