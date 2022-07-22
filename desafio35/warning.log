@@ -1,0 +1,97 @@
+[2022-07-13T14:48:27.914] [WARN] default - Route GET /asdadd non-existent
+[2022-07-13T14:48:28.023] [WARN] default - Route GET /favicon.ico non-existent
+[2022-07-13T14:49:11.461] [WARN] default - Route GET /asdadd non-existent
+[2022-07-13T14:49:16.758] [WARN] default - Route GET /api/login non-existent
+[2022-07-13T14:49:21.613] [WARN] default - Route GET /api/login non-existent
+[2022-07-13T14:50:36.106] [WARN] default - Route GET /api/loginasd non-existent
+[2022-07-13T16:04:42.234] [WARN] default - Route GET /css/estilos.css no existe
+[2022-07-13T16:05:18.722] [WARN] default - Route GET /api/css/estilos.css no existe
+[2022-07-13T16:05:19.871] [WARN] default - Route GET /api/css/estilos.css no existe
+[2022-07-13T16:05:49.592] [WARN] default - Route GET /public/css/estilos.css no existe
+[2022-07-13T16:05:50.826] [WARN] default - Route GET /public/css/estilos.css no existe
+[2022-07-13T16:06:31.489] [WARN] default - Route GET /public/css/estilos.css no existe
+[2022-07-13T16:24:14.087] [WARN] default - Route GET /signup no existe
+[2022-07-13T16:24:33.649] [WARN] default - Route GET /api/api/signup no existe
+[2022-07-13T16:26:48.187] [WARN] default - Route GET /api/api/login no existe
+[2022-07-13T16:26:54.245] [WARN] default - Route GET /api/api/login no existe
+[2022-07-13T16:33:30.518] [WARN] default - Route GET /api/signup no existe
+[2022-07-14T09:29:31.478] [WARN] default - Route GET /api/login no existe
+[2022-07-14T09:29:31.611] [WARN] default - Route GET /favicon.ico no existe
+[2022-07-14T09:30:20.438] [WARN] default - Route GET /api/login no existe
+[2022-07-14T09:30:25.993] [WARN] default - Route GET /auth/login no existe
+[2022-07-14T09:30:43.488] [WARN] default - Route GET /api/login no existe
+[2022-07-14T09:31:17.674] [WARN] default - Route GET /api/signup no existe
+[2022-07-14T09:34:38.014] [WARN] default - Route GET /api/signup no existe
+[2022-07-14T09:35:50.791] [WARN] default - Route GET /favicon.ico no existe
+[2022-07-14T09:38:18.266] [WARN] default - Route GET /auth/signup no existe
+[2022-07-14T09:38:27.813] [WARN] default - Route GET /auth/profile no existe
+[2022-07-14T09:42:13.533] [WARN] default - Route GET /api/auth/login no existe
+[2022-07-14T09:42:19.714] [WARN] default - Route GET /api/auth/login no existe
+[2022-07-14T09:46:55.775] [WARN] default - Route GET /api/auth/login no existe
+[2022-07-14T09:48:15.758] [WARN] default - Route GET /api/login no existe
+[2022-07-14T09:48:21.254] [WARN] default - Route GET /api/auth/login no existe
+[2022-07-14T09:48:29.690] [WARN] default - Route GET /api/auth/login no existe
+[2022-07-14T09:49:39.045] [WARN] default - Route GET /api/auth/login no existe
+[2022-07-14T09:49:42.884] [WARN] default - Route GET /api/auth/login no existe
+[2022-07-14T09:50:13.576] [WARN] default - Route GET /api/auth/login no existe
+[2022-07-14T09:50:14.501] [WARN] default - Route GET /api/auth/login no existe
+[2022-07-14T09:50:18.571] [WARN] default - Route GET /api/auth/login no existe
+[2022-07-14T09:50:47.077] [WARN] default - Route GET /api/auth/login no existe
+[2022-07-14T09:50:50.060] [WARN] default - Route GET /api/auth/login no existe
+[2022-07-14T09:55:27.858] [WARN] default - Route GET /api/login no existe
+[2022-07-14T09:59:40.398] [WARN] default - Route GET /auth/signup no existe
+[2022-07-14T10:00:06.432] [WARN] default - Route GET /api/auth/api/auth/signup no existe
+[2022-07-14T10:00:19.103] [WARN] default - Route GET /api/auth/api/auth/signup no existe
+[2022-07-14T10:00:23.253] [WARN] default - Route GET /signup no existe
+[2022-07-14T17:04:58.776] [WARN] default - Route GET /favicon.ico no existe
+[2022-07-15T12:11:24.423] [WARN] default - Route GET /auth/ no existe
+[2022-07-16T18:34:21.428] [WARN] default - Route GET /favicon.ico no existe
+[2022-07-16T18:34:44.859] [WARN] default - Route GET /api/login no existe
+[2022-07-16T18:38:33.362] [WARN] default - Route GET /api/auth/singup no existe
+[2022-07-16T18:44:46.430] [WARN] default - Route GET /login no existe
+[2022-07-16T18:45:01.623] [WARN] default - Route GET /api/auth/auth/login no existe
+[2022-07-16T18:47:41.775] [WARN] default - Route GET /api/auht/profile no existe
+[2022-07-16T19:13:32.319] [WARN] default - Route GET /api/auth no existe
+[2022-07-16T21:30:52.833] [WARN] default - Route GET /api/persona no existe
+[2022-07-17T00:56:15.967] [WARN] default - Route GET /favicon.ico no existe
+[2022-07-17T01:10:38.474] [WARN] default - Route GET /api/personas=1657460059138 no existe
+[2022-07-17T01:10:50.070] [WARN] default - Route GET /api/personas:1657460059138 no existe
+[2022-07-17T02:02:43.751] [WARN] default - Route GET /api/auth/auth/login no existe
+[2022-07-17T09:24:36.591] [WARN] default - Route GET /favicon.ico no existe
+[2022-07-17T14:38:26.302] [WARN] default - Route GET /logout no existe
+[2022-07-17T14:38:38.206] [WARN] default - Route GET /api/auth/logout no existe
+[2022-07-17T15:04:39.583] [WARN] default - Route GET /api/auth/auth/login no existe
+[2022-07-17T16:07:31.101] [WARN] default - Route GET /api/auth/api/auth/login no existe
+[2022-07-17T16:07:58.404] [WARN] default - Route GET /api/auth/api/auth/login no existe
+[2022-07-17T16:09:07.925] [WARN] default - Route GET /api/auth/api/auth/login no existe
+[2022-07-17T16:09:11.605] [WARN] default - Route GET /api/api/auth/login no existe
+[2022-07-17T16:10:57.250] [WARN] default - Route GET /login no existe
+[2022-07-17T16:11:44.695] [WARN] default - Route GET /login no existe
+[2022-07-17T16:12:13.129] [WARN] default - Route GET /profile no existe
+[2022-07-17T16:13:03.706] [WARN] default - Route GET /api/auth/api/auth/login no existe
+[2022-07-17T16:15:26.127] [WARN] default - Route GET /api/auth/api/auth/login no existe
+[2022-07-17T16:18:58.990] [WARN] default - jpanz 1234
+[2022-07-17T16:19:15.678] [WARN] default - jpanz 1234
+[2022-07-17T16:19:19.808] [WARN] default - jpanzuto 123
+[2022-07-19T18:34:24.996] [WARN] default - Route GET /login no existe
+[2022-07-19T18:34:25.116] [WARN] default - Route GET /favicon.ico no existe
+[2022-07-19T18:35:40.737] [WARN] default - Route GET /api/api/auth/login no existe
+[2022-07-19T18:36:10.606] [WARN] default - Route GET /api/api/auth/login no existe
+[2022-07-19T18:37:04.357] [WARN] default - Route GET /profile no existe
+[2022-07-19T18:38:03.573] [WARN] default - Route GET /api/api/auth/login no existe
+[2022-07-19T18:38:22.985] [WARN] default - Route GET /api/auth/api/auth/login no existe
+[2022-07-19T18:38:43.780] [WARN] default - Route GET /api/auth/api/auth/login no existe
+[2022-07-21T09:46:03.924] [WARN] default - Route GET /favicon.ico no existe
+[2022-07-21T09:46:11.045] [WARN] default - Route GET /api/productos no existe
+[2022-07-21T15:01:25.205] [WARN] default - Route GET /api/auth/estilos.css no existe
+[2022-07-21T15:01:25.506] [WARN] default - Route GET /favicon.ico no existe
+[2022-07-21T15:01:27.274] [WARN] default - Route GET /api/auth/estilos.css no existe
+[2022-07-21T15:04:19.467] [WARN] default - Route GET /api/auth/estilos.css no existe
+[2022-07-21T15:04:58.214] [WARN] default - Route GET /api/auth/estilos.css no existe
+[2022-07-21T15:04:59.926] [WARN] default - Route GET /api/auth/estilos.css no existe
+[2022-07-21T15:06:17.780] [WARN] default - Route GET /api/public/estilos.css no existe
+[2022-07-21T15:06:20.276] [WARN] default - Route GET /api/public/estilos.css no existe
+[2022-07-21T15:06:46.311] [WARN] default - Route GET /api/public/estilos.css no existe
+[2022-07-21T15:06:52.920] [WARN] default - Route GET /api/auth/estilos.css no existe
+[2022-07-22T10:09:38.792] [WARN] default - Route GET /favicon.ico no existe
+[2022-07-22T12:58:51.305] [WARN] default - Route GET /favicon.ico no existe
